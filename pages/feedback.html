@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+  </head>
+  
+  <body>
+    <header>
+      <a id="header-logo" href=""> <strong>Genius College</strong></a>
+      <div class="header-links"> 
+          <a href="/home/captainnemo/repos/collegeWebsite/pages/courses.html">Courses</a>
+          <a href="/home/captainnemo/repos/collegeWebsite/pages/feedback.html">Feedback</a>
+          <a href="/home/captainnemo/repos/collegeWebsite/pages/about.html">About Us</a>
+      </div>
+  </header>
+
+    <h1 id="title">Feedback/Queries <Form></Form></h1>
+    <p id="description">Providing the best learning experience is our priority. Please help us with the same by providing your invaluable feedback. Thank you for your time.</p>
+
+<form id="survey-form">
+    <fieldset>
+      <label id="name-label">Enter your name: <input id="name" type:"text" placeholder="John Doe" required /></label>
+      <label id="email-label">Enter your Email ID: <input id="email" type="email" placeholder="johndoe@email.com" required /></label>
+      <label id="number-label">Student Roll Number (SRN): <input id="number" type="number" min="10" max="150" placeholder="Ex.: 52" /></label>
+    </fieldset>
+    <fieldset>
+      <label>Select the program you're enrolled into:
+        <select id="dropdown">
+          <option value="">(Select an option)</option>
+          <option value="1">Undergraduate</option>
+          <option value="2">Postgraduate</option>
+          <option value="3">Distance Learning</option>
+        </select>
+      </label>
+      <label>You are a: </label>
+       <label>
+         <input name="profession" value="student" type="radio" /> Student
+      </label>
+      <label>
+         <input name="profession" value="parent" type="radio" /> Parent
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>Feedback regarding: </label>
+      <label>
+        <input type="checkbox" value="campus"/> Campus
+      </label>
+      <label>
+        <input type="checkbox" value="food-court"/> Food Court 
+      </label>
+      <label>
+        <input type="checkbox" value="teaching"/> Teaching 
+      </label>
+      <label>
+        <input type="checkbox" value="assesments"/> Assesments 
+      </label>
+      <label>
+        <input type="checkbox" value="hostel"/> Hostel 
+      </label>
+      <label>
+        <input type="checkbox" value="general"/> General 
+      </label>
+      <label>
+        Kindly describe in a few words: 
+        <textarea rows="3" cols="30" placeholder="The food court should have more chairs to sit..."></textarea>
+      </label>
+    </fieldset>
+    <button id="submit" type="submit" onclick="window.location.href='/home/captainnemo/repos/collegeWebsite/pages/landingpage.html'">Submit</button>
+  </form>
+  </body>
+  <footer>
+    <p>Copyright @ The Genius Group 2022</p>
+    <p id="contact">Contact: genius@geniusgroup.com</p>
+</footer>
+</html>

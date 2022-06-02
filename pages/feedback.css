@@ -1,0 +1,91 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: rgb(8, 73, 138);
+    padding: 10px;
+    /* margin: 1%; */
+    /* border: 2px solid black; */
+}
+
+#header-logo {
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.header-links {
+    display: flex;
+    margin-left: 60%;
+}
+
+.header-links a{
+    margin: 5px;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: rgb(8, 73, 138);
+    color: white;
+    margin: 0;
+  }
+  
+  #title, p {
+    text-align: center;
+  }
+  
+  form {
+    background-color: #04031caf;
+    opacity: 80%;
+    color: white;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto 40px;
+  }
+  
+  fieldset {
+    border: none;
+    padding-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    padding: 5px 0;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  
+  input[type="radio"] , input[type="checkbox"] {
+    width: unset;
+  }
+  
+  button {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  footer {
+    display: flex;
+    background-color: rgb(8, 73, 138);
+    color: white;
+    margin: none;
+    height: 40px;
+    font-size: small;
+    align-items: center;
+    justify-content: center;    
+}
+
+#contact {
+    text-align: right;
+    margin-left: 10%;
+}
